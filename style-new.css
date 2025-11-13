@@ -2412,7 +2412,6 @@ lottie-player {
   .services-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    
   }
   
   .service-card {
@@ -2488,6 +2487,7 @@ lottie-player {
     flex-direction: row;
     gap: 2rem;
   }
+
   
   .nav-toggle-btn {
     display: none;
@@ -2542,6 +2542,7 @@ lottie-player {
   
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
+    
   }
   
   .portfolio-grid {
@@ -2574,5 +2575,7 @@ lottie-player {
 .grid-list li {
   list-style: none;
 }
+
+
 
 
