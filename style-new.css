@@ -7,7 +7,6 @@
  */
 
 /*-----------------------------------*\
-
   #CUSTOM PROPERTIES
 \*-----------------------------------*/
 
@@ -136,6 +135,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* 👈 ye important hai */
+}
+
 
 html {
   font-family: var(--ff-primary);
@@ -155,9 +159,9 @@ body {
 
 
     width: 100%;
-  max-width: 1200px;   /* jitni wide site chahiye */
-  margin: 0 auto;      /* center me lane ke liye */
-  padding: 0 20px;     /* left-right padding (safe gap) */
+  max-width: 1200px;   
+  margin: 0 auto;     
+  padding: 0 20px;     
   box-sizing: border-box;
 }
 
@@ -319,8 +323,7 @@ address { font-style: normal; }
 /*-----------------------------------*\
   #REUSABLE CLASSES
 \*-----------------------------------*/
-/* 
-/* Green main heading center */
+
 section#about .section-title {
   text-align: center !important;
   font-size: 2.8rem !important;
@@ -329,7 +332,7 @@ section#about .section-title {
   margin-bottom: 40px !important;
 }
 
-/* Content block ek ke neeche ek */
+
 section#about .about-content {
   max-width: 900px !important;
   margin: 0 auto !important;
@@ -503,6 +506,7 @@ section#about .about-item ion-icon {
   z-index: var(--z-fixed);
   transition: all var(--transition-normal);
   padding-block: 1rem;
+
 }
 
 .header.active {
@@ -2358,7 +2362,6 @@ lottie-player {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
-
 @media (min-width: 575px) {
   .input-group {
     grid-template-columns: 1fr 1fr;
@@ -2577,10 +2580,4 @@ lottie-player {
 .grid-list li {
   list-style: none;
 }
-
-
-
-
-
-
 
