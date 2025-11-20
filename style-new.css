@@ -562,7 +562,7 @@ section#about .about-item ion-icon {
 .navbar.active {
   top: 100%;
   visibility: visible;
-  transform: translateY(-100%);
+  transform: translateY(0);
 }
 
 .navbar-list {
@@ -609,7 +609,7 @@ section#about .about-item ion-icon {
 .hamburger-line {
   width: 24px;
   height: 2px;
-  background: var(--white);
+  background: var(--accent-500);
   transition: all var(--transition-normal);
 }
 
@@ -1680,7 +1680,7 @@ lottie-player {
   #PRICING
 \*-----------------------------------*/
 
-.pricing {
+.ng {
   background: var(--neutral-800);
   /* position: relative; */
 }
@@ -1699,13 +1699,13 @@ lottie-player {
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat((4, 1fr));
-  /* gap: 2rem; */
+ 
   align-items: start;
-
+  overflow-x: auto; 
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-  gap: 10px; /* cards ke beech spacing */
-  /* align-items: stretch; */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px; 
+  
 
 }
 
@@ -2547,7 +2547,6 @@ lottie-player {
   
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
-    
   }
   
   .portfolio-grid {
