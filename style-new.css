@@ -233,13 +233,13 @@ address { font-style: normal; }
   text-align: center;
 }
 
-.loading-text {
+/* .loading-text {
   font-size: var(--fs-body-lg);
   font-weight: var(--fw-600);
   color: var(--primary-400);
   margin-top: 1rem;
   animation: loadingPulse 1.5s ease-in-out infinite;
-}
+} */
 
 @keyframes loadingPulse {
   0%, 100% { opacity: 0.6; }
@@ -2598,4 +2598,5 @@ lottie-player {
 .grid-list li {
   list-style: none;
 }
+
 
